@@ -10,15 +10,15 @@
   display: block;
   font-family:sans-serif;
   color:red;
-  text-align: center;
  }
  
  .toolbar li {
-            display:inline;
-            border: 1px solid;
-            border-color:#F3F3F3 #BBB #BBB #F3F3F3;
-            margin:2px;
-            padding: .3em;
-            position:relative;
-            border-radius: 20em;
-        }
+  display:inline;
+  border: 1px solid;
+  border-color:#F3F3F3 #BBB #BBB #F3F3F3;
+  margin:2px;
+  padding: .3em;
+  position:relative;
+  border-radius: 20em;
+  color: blue;
+ }
