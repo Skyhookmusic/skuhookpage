@@ -8,8 +8,6 @@
  }
  .toolbar li {
   display:inline;
-  padding-left:5px;
-  padding-right:5px;
   border: 1px solid;
   border-color:#F3F3F3 #BBB #BBB #F3F3F3;
   padding: .3em;
