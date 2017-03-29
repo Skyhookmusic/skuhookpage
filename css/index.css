@@ -6,19 +6,17 @@
       margin: 0;
       padding: 0;
  }
-
  .toolbar li {
   display:inline;
+  padding-left:5px;
+  padding-right:5px;
   border: 1px solid;
   border-color:#F3F3F3 #BBB #BBB #F3F3F3;
   padding: .3em;
-  position:fixed;
-  bottom:95%;
+  bottom:50%;
   border-radius: 20em;
   color: blue;
  }
- li{margin-left:20px;}
- 
  .example1 {
     display:inline-block;   
     position:relative;
@@ -43,13 +41,10 @@
     display: block;
     color:#d3d8e2;
     top:50%;
-    text-align:top;
 }
 .example1 {
     font-size:12px; 
 }
- 
- 
  .example2 {
     display:inline-block;   
     position:relative;
