@@ -1,45 +1,57 @@
  body {
   background:#d3d8e2;
-  text-align:center;
-  max-width: 970px;
+  z-index: 10;
+  max-width: 975px;
   margin: 0 auto;
+  text-align: center;
  }
-
+.toolbar{
+ 
+  left:10%;
+    top:0%;
+    z-index: 5;
+}
+li{
+ font-family:Arial, Helvetica, sans-serif;
+    text-shadow:  1px 0px 1px black, 0 0 1em #7c7d7f;
+    font-size:1em;
+   line-height:normal;
+    color:#d3d8e2;
+}
  .toolbar li {
   font-family:Arial, Helvetica, sans-serif;
-  display:inline;
+  display: inline-block;
   color:#d3d8e2;
-  border-color:#F3F3F3 #BBB #BBB #F3F3F3;
-  background-color: rgba(12, 12, 12, 0.3);
-  padding: .3em;
-  border-radius: 20em;
+  padding-right: 2em;
+ 
+ 
   
  }
- .example1 {
-    display:inline-block;   
-    position:relative;
+ #musthead {
+  display:flex;
+  flex-flow: row wrap;
+  position: fixed;
+  margin-left: 152px;
+  justify-content:space-between ;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  width: 975px;
+  height: 50px;
+  background-color:#d3d8e2;
 }
-.example1 .example_text1{
-    display:block;
-    position:absolute;
-    left:0;
-    top:15%;
-    width:100%;
-    box-sizing:border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box; 
-    color:#fff;
-    padding:10px;
-    background-color:rgba(0,0,0,0);
-}
-.example1 h1{
+
+h1{
+  
+  margin-top: 5px;
+ 
     font-family:Arial, Helvetica, sans-serif;
-    text-shadow:  1px 0px 1px black, 0 0 1em #d3d8e2;
-    font-size:5em;
-    display: block;
+    text-shadow:  1px 0px 1px black, 0 0 1em #7c7d7f;
+    font-size:2.3em;
+   
     color:#d3d8e2;
-    top:50%;
+    
 }
 h2{
  font-family:Arial, Helvetica, sans-serif;
@@ -70,6 +82,7 @@ h2{
     font-size:18px;
 }
 .example2 p {
+ text-align: justify;
     font-size:16px; 
     line-height: 21px;
     color:#d3d8e2;
