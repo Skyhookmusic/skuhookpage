@@ -65,3 +65,10 @@ h2{
  line-height: 31px;
  color:#d3d8e2;
 }
+.music{
+ display: flex;
+ justify-content:space-between;
+ align-items:center;
+ height: 350px; 
+ flex-direction:column;
+}
