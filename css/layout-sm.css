@@ -23,3 +23,17 @@
     border: none;
     width: 100%;
 }
+
+.feedback {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.btn {
+    width: 200px;
+    height: 55px;
+}
+
+.video iframe {
+    min-height: 200px;
+}

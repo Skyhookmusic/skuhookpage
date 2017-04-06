@@ -9,9 +9,10 @@
  .toolbar li {
   display: inline-block;
   padding-left: 15px;
-  margin:0;
+  margin: 0;
  }
- .toolbar{
+ 
+ .toolbar {
   padding-left: 10px;
  }
  
@@ -21,6 +22,15 @@
   color: #232323;
   font-weight: bold;
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  -webkit-transition: All 0.3s ease;
+  -moz-transition: All 0.3s ease;
+  -o-transition: All 0.3s ease;
+  -ms-transition: All 0.3s ease;
+  transition: All 0.3s ease;
+ }
+ 
+ ul li a:hover {
+  color: #727004;
  }
  
  #musthead {
@@ -38,7 +48,7 @@
  
  h1 {
   margin-top: 5px;
-  margin-right:3%;
+  margin-right: 3%;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
   font-size: 2.3em;
@@ -56,7 +66,7 @@
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
  }
  
- .main-image {
+ .main_image {
   top: 50px;
   background-image: url(../img/imgmain.jpg);
   margin: 0 auto;
@@ -69,7 +79,7 @@
   position: relative;
  }
  
- .about-block {
+ .about_block {
   width: 90%;
   margin: 0 auto;
   background-image: url(../img/imgtxt.jpg);
@@ -81,13 +91,13 @@
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
  }
  
- .about-block .about-txt {
+ .about_block .about_txt {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   color: #fff;
  }
  
- .about-block p {
+ .about_block p {
   padding: 60px 20px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -120,17 +130,17 @@
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
  }
  
-.feedback {
-width: 40%;
-margin: 20px auto;
+ .feedback {
+  width: 40%;
+  margin: 20px auto;
  }
  
- .feedback .client_info{
+ .feedback .client_info {
   position: relative;
  }
  
- .feedback .client_info label{
-  position:absolute;
+ .feedback .client_info label {
+  position: absolute;
   top: 5px;
   left: 5%;
   font-family: Arial, Helvetica, sans-serif;
@@ -140,61 +150,62 @@ margin: 20px auto;
   font-weight: 100;
  }
  
-.feedback input{
- display: block;
- margin: 20px auto;
- width: 90%;
- padding: 5px;
- outline: none;
- border: none;
- border-bottom: 2px solid #969696;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 16px;
- color: #232323;
- background-color: inherit;
-}
-
-.feedback input:focus + label,
-.feedback textarea:focus + label,
-.feedback input:valid + label,
-.feedback textarea:valid + label {
- font-size: 15px;
- top: -15px;
-}
-
-.feedback textarea{
- display: block;
- width: 91%;
- margin: 20px auto;
- padding: 5px 0;
- font-size: 16px;
- outline: none;
- border: none;
- border-bottom: 2px solid #969696;
- resize: vertical;
- background-color: inherit;
-}
-
-.btn{
- width: 150px;
- height: 40px;
- background-color: inherit;
- margin: 20px auto;
- outline: none;
- border-radius: 10px;
- cursor: pointer;
- font-size: 16px;
- font-weight: bold;
+ .feedback input {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #969696;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #232323;
+  background-color: inherit;
+ }
+ 
+ .feedback input:focus+label,
+ .feedback textarea:focus+label,
+ .feedback input:valid+label,
+ .feedback textarea:valid+label {
+  font-size: 15px;
+  top: -15px;
+ }
+ 
+ .feedback textarea {
+  display: block;
+  width: 91%;
+  margin: 20px auto;
+  padding: 5px 0;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #969696;
+  resize: vertical;
+  background-color: inherit;
+ }
+ 
+ .btn {
+  width: 150px;
+  height: 40px;
+  background-color: inherit;
+  margin: 20px auto;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   color: #232323;
   padding: 0 0;
   -webkit-transition: All 0.5s ease;
--moz-transition: All 0.5s ease;
--o-transition: All 0.5s ease;
--ms-transition: All 0.5s ease;
-transition: All 0.5s ease;
-}
-.btn:hover {
- background-color: #9db79f;
-
-}
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
+  -ms-transition: All 0.5s ease;
+  transition: All 0.5s ease;
+ }
+ 
+ .btn:hover {
+  background-color: #9db79f;
+ }
+ 
