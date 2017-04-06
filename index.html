@@ -33,11 +33,9 @@
     <main>
         <div class="main-image">
         </div>
-        <!--<img src="img/imgmain.jpg" alt="djskyhook" class="main-image">-->
         <section id="about">
             <h2>Про проект</h2>
             <div class="about-block">
-                <!--<img src="img/imgtxt.jpg" width="970" alt="movement" class="about-img">-->
                 <article class="about-txt">
                     <p>Skyhook music це проект DJ Skyhook (Богдан Бандрівський) який має на меті запис музики, співпрацю з різноманітними артистасми та розповсюдженя її.<br> DJ Skyhook - справжнє ім’я Богдан Бандрівський. Закінчив Львівську школу діджеінгу
                         PARADEK (DJ Derrik i DJ Tonika). Львівський діджей, за плечима якого вже участь у більше сотні різних подій. На вечірках рве денспідлоги неймовірно підривною атмосферою, використовуючи у сетах шалений мікс треків всіх часів і народів,
@@ -64,11 +62,6 @@
         <section id="gallery">
             <h2>Галерея</h2>
             <div class="gallery">
-                <div>your content</div>
-                <div>your content</div>
-                <div>your content</div>
-            </div>
-            <div class="gallery">
                 <img src="img/skyhook.jpg" width="970" alt="djskyhook">
             </div>
         </section>
@@ -76,19 +69,22 @@
     <footer>
         <section id="contact">
             <h2>Зв'язатися з нами</h2>
-            <div class="write">
-                <form action="#">
-                    <div class="field_wraper"></div>
-                    <label><input type="text" name="clientname" placeholder="Ваше ім'я" required> </label><br>
+            <div class="feedback">
+                <div class="client_info">
+                    <input type="text" id="clientname" required/>
+                    <label for="name">ВАШЕ ІМ'Я</label><br>
+                </div>
+                <div class="client_info">
+                    <input  type="email" id="clientemail" required/>
+                    <label for = "email">ВАША ПОШТА</label><br>
+                </div>
+                <div="client_info">
+                    <textarea rows = "1" id = "text" required/></textarea>
+                    <label for = "text">ВАШ ВІДГУК</label><br>
+                </div>
+                <button class="btn" type="submit">НАДІСЛАТИ</button>
             </div>
-            <div class="field_wraper">
-                <label><input type="email" name="clientemail" placeholder="Ваша пошта" required></label><br>
-            </div>
-
-            <label><textarea name="response" placeholder="Ваш відгук"></textarea></label><br>
-            <input type="submit" />
-            </form>
-            </div>
+            
             <br>
             <a href="https://www.facebook.com/djskyhookmusic">
                 <img src="img/facebook.png" alt="facebook"></a>
