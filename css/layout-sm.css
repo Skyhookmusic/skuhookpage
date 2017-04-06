@@ -2,11 +2,11 @@
     display: none;
 }
 
-.about-block {
+.about_block {
     width: 100%;
 }
 
-.about-block p {
+.about_block p {
     padding: 30px 20px;
     text-align: left;
     line-height: 25px;
