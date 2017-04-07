@@ -4,7 +4,7 @@
   margin: 0 auto;
   text-align: center;
   position: relative;
-  font-family: 'Open Sans Condensed', sans-serif;
+
  }
  
  .toolbar li {
@@ -18,7 +18,7 @@
  }
  
  ul li a {
-  font-family: gill, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1em;
   color: #232323;
   font-weight: bold;
