@@ -4,7 +4,6 @@
   margin: 0 auto;
   text-align: center;
   position: relative;
-
  }
  
  .toolbar li {
@@ -18,7 +17,7 @@
  }
  
  ul li a {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: gill, sans-serif;
   font-size: 1em;
   color: #232323;
   font-weight: bold;
@@ -101,7 +100,7 @@
  .about_block p {
   padding: 60px 20px;
   text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   line-height: 31px;
   color: #d3d8e2;
