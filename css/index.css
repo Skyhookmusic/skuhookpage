@@ -4,6 +4,7 @@
   margin: 0 auto;
   text-align: center;
   position: relative;
+  font-family: 'Open Sans Condensed', sans-serif;
  }
  
  .toolbar li {
@@ -30,7 +31,7 @@
  }
  
  ul li a:hover {
-  color: #727004;
+  color: #6a7c6b;
  }
  
  #musthead {
@@ -100,11 +101,11 @@
  .about_block p {
   padding: 60px 20px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.2em;
   line-height: 31px;
   color: #d3d8e2;
-  text-shadow: 1px 2px 3px rgba(200, 20, 200, 0.4);
+  text-shadow: 1px 2px 3px rgba(175, 212, 214, 0.1);
  }
  
  .music {
@@ -146,7 +147,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   transition: all .3s ease-in-out;
-  color: #969696;
+  color: #9db79f;
   font-weight: 100;
  }
  
@@ -157,7 +158,7 @@
   padding: 5px;
   outline: none;
   border: none;
-  border-bottom: 2px solid #969696;
+  border-bottom: 2px solid #9db79f;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #232323;
@@ -180,7 +181,7 @@
   font-size: 16px;
   outline: none;
   border: none;
-  border-bottom: 2px solid #969696;
+  border-bottom: 2px solid #9db79f;
   resize: vertical;
   background-color: inherit;
  }
