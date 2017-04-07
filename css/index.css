@@ -17,6 +17,7 @@
  }
  
  ul li a {
+  text-decoration: none;
   font-family: gill, sans-serif;
   font-size: 1em;
   color: #232323;
