@@ -6,8 +6,8 @@
     <title>Skyhook music official</title>
     <link rel="shortcut icon" href="img/sm.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" media="(min-width: 660px)" href="css/layout-lg.css" />
-    <link rel="stylesheet" media="(max-width: 659px)" href="css/layout-sm.css" />
+    <link rel="stylesheet" media="(min-width: 620px)" href="css/layout-lg.css" />
+    <link rel="stylesheet" media="(max-width: 619px)" href="css/layout-sm.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
@@ -15,7 +15,7 @@
 <body>
     <header>
         <section id="home">
-            <div id="musthead">
+            <div id="header_container">
                 <nav>
                     <ul class="toolbar">
                         <li><a href="#home">Головна</a></li>
@@ -26,7 +26,10 @@
                         <li><a href="#contact">Контакти</a></li>
                     </ul>
                 </nav>
-                <h1>SKYHOOK MUSIC</h1>
+                
+                <a href = "#home">
+                <img src = "img/logoskyhook.png" alt ="logoskyhook"></a>
+                <!--<h1>SKYHOOK MUSIC</h1>-->
             </div>
         </section>
     </header>
@@ -75,7 +78,7 @@
                     <label for="clientname">ВАШЕ ІМ'Я</label><br>
                 </div>
                 <div class="client_info">
-                    <input type="text" id="clientemail" required/>
+                    <input type="email" id="clientemail" required/>
                     <label for="clientemail">ВАША ПОШТА</label><br>
                 </div>
                 <div class="client_info">
