@@ -1,6 +1,12 @@
 #header_container nav {
     display: none;
 }
+#header_container .logo{
+ display: block;
+ width: 60%;
+ height: auto;
+ 
+ }
 
 .about_block {
     width: 100%;

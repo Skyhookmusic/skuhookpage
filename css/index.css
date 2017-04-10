@@ -35,10 +35,17 @@
  }
  
  #header_container img {
-  width: auto;
-  height: 40px;
-  display: block;
-  padding-right: 5px;
+  width: 100%;
+  height: auto;
+
+ }
+ 
+ 
+ #header_container .logo{
+ display: block;
+ width: 40%;
+ height: auto;
+ 
  }
  
  #header_container {
