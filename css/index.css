@@ -15,7 +15,6 @@
  .toolbar {
   padding-left: 8px;
  }
-
  
  ul li a {
   text-decoration: none;
@@ -29,19 +28,19 @@
   -o-transition: All 0.3s ease;
   -ms-transition: All 0.3s ease;
   transition: All 0.3s ease;
-  
  }
  
  ul li a:hover {
   color: #6a7c6b;
  }
- #header_container img{
-   width:auto;
-   height: 40px;
-   display: block;
-   padding-right: 5px;
+ 
+ #header_container img {
+  width: auto;
+  height: 40px;
+  display: block;
+  padding-right: 5px;
  }
-
+ 
  #header_container {
   max-width: 1280px;
   margin: 0 auto;
@@ -57,7 +56,7 @@
   height: 50px;
   background-color: #d3d8e2;
  }
-
+ 
  h1 {
   margin-top: 5px;
   margin-right: 3%;
@@ -66,7 +65,7 @@
   font-size: 2.3em;
   color: #232323;
  }
-
+ 
  #about h2 {
   position: relative;
   margin-top: 70px;
@@ -83,7 +82,6 @@
   background-image: url(../img/imgmain.jpg);
   margin: 0 auto;
   -webkit-background-size: cover;
-  background-size: cover;
   width: 100%;
   height: 100vh;
   background-position: center;
