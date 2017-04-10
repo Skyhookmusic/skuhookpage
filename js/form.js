@@ -14,7 +14,6 @@ function sendForm(e) {
         },
         dataType: "json"
     })
-    .done(function() {
-        $('form').html('<h1>Спасибі</h1>');
-    });
+
+    
 }
