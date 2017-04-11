@@ -55,16 +55,10 @@
     top: 8px;
     right: 5px;
     display: block;
-  
-  
  }
  
- /*.container-fluid .navbar-brand {*/
- /* display: block;*/
- /* width: 30%;*/
- /* height: auto;*/
- /*}*/
  .gallery-container{
+  display: block;
   width: 90%;
   height: auto;
   margin: 0 auto;
@@ -225,6 +219,7 @@
  }
  
  .btn {
+  border: 1px solid #9db79f;
   width: 150px;
   height: 40px;
   background-color: inherit;
@@ -247,11 +242,21 @@
  .btn:hover {
   background-color: #9db79f;
  }
-  .gallery img{
-  /*min-height: 400px;*/
-  border: none;
-  width: 90%;
-  height: auto;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
-  }
+
+  .carousel-inner img {
+    margin: 0 auto;
+}
+.links img{
+ height: 50px;
+ width: 50px;
+ border-radius: 30px;
+ -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
+  -ms-transition: All 0.5s ease;
+  transition: All 0.5s ease;
+}
+.links img:hover{
+ background-color: #9db79f;
+}
  
