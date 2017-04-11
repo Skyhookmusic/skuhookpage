@@ -15,7 +15,13 @@
  .toolbar {
   padding-left: 8px;
  }
- 
+ .nav li a {
+  padding: 16px 9px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+  
+ }
+
  ul li a {
   text-decoration: none;
   font-family: gill, sans-serif;
@@ -30,21 +36,38 @@
   transition: All 0.3s ease;
  }
  
- ul li a:hover {
+ nav li a:hover {
   color: #6a7c6b;
  }
- 
- #header_container img {
-  width: 100%;
-  height: auto;
+ .container-fluid{
+  padding: 0;
+  background-color: #d3d8e2;
+  box-shadow: none;
+ }
+
+ .container-fluid img {
+  width: auto;
+  height: 34px;
+  position: absolute; 
+  padding:0;
+  margin:0;
+    /*bottom: 15px;  */
+    top: 8px;
+    right: 5px;
+    display: block;
+  
+  
  }
  
- #header_container .logo {
-  display: block;
-  width: 30%;
-  height: auto;
+ /*.container-fluid .navbar-brand {*/
+ /* display: block;*/
+ /* width: 30%;*/
+ /* height: auto;*/
+ /*}*/
+ #myCarusel{
+  width: 90%;
+  height: auto
  }
- 
  #header_container {
   max-width: 1280px;
   margin: 0 auto;
