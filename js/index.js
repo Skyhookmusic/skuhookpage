@@ -1,11 +1,19 @@
- $(function() {
-    $('.smooth').on('click', function(event) {
-        var target = $(this.getAttribute('href'));
-        if (target.length) {
-            event.preventDefault();
-            $('html, body').stop().animate({
-                scrollTop: target.offset().top
-            }, 1500);
-        }
-    });
+$(function() {
+    $(':submit').click(sendForm);
 });
+function sendForm(e) {
+  var form = document.querySelector('form');
+  if (form.checkValidity()) {
+        e.preventDefault();
+        $.ajax({
+                url: "https://formspree.io/bodjabdld@gmail.com",
+                method: "POST",
+                data: {
+                    name: $('#client_name').val(),
+                    email: $('#client_email').val(),
+                    comment: $('#comment').val(),
+                },
+                dataType: "json"
+            })
+    }
+}
