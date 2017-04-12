@@ -1,17 +1,16 @@
-#home .container-fluid img{
- width: auto;
- height: 36px;
- left: 5px;
- top: 6px;
-  position: absolute; 
-  margin:0;
-    /*bottom: 15px;  */
+#home .container-fluid img {
+    width: auto;
+    height: 36px;
+    left: 5px;
+    top: 6px;
+    position: absolute;
+    margin: 0;
     display: block;
-    
- }
-   .navbar-toggle:{
-     float: left;
- }
+}
+
+.navbar-toggle: {
+    float: left;
+}
 
 #about .about_block {
     width: 100%;
@@ -34,24 +33,20 @@
     border: none;
     width: 100%;
 }
-.gallery-container{
-    width:100%;
+
+.gallery-container {
+    width: 100%;
     height: auto;
 }
-/*#gallery .gallery-container{*/
-/*     max-height: 100px;*/
-/*    width: 100%;*/
-/*        position: relative;*/
-/*  display: block;*/
-/*} */
 
 #contact .feedback {
     width: 90%;
     margin: 20px auto;
 }
- #contact .feedback .client_info {
-  position: relative;
- }
+
+#contact .feedback .client_info {
+    position: relative;
+}
 
 #contact .btn {
     width: 200px;
