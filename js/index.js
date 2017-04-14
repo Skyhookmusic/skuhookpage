@@ -14,6 +14,9 @@ function sendForm(e) {
                     comment: $('#comment').val(),
                 },
                 dataType: "json"
+                
             })
     }
 }
+
+
